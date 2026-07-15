@@ -1,2 +1,11 @@
-# DSA
-This Repo contains the Practice of Data Structure and Algorithms
+# DSA Practice
+
+This repository contains my DSA solutions and daily practice.
+
+## Languages
+- Java
+
+## Platforms
+- LeetCode
+- GeeksforGeeks
+- CodingNinja
