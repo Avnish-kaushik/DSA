@@ -1,35 +1,27 @@
 public class Functions {
     static void main() {
-//    FUNCTIONS IN JAVA
+//    FUNCTION OVERLOADING
+        int x = sum(2,3);
+        System.out.println(x);
 
-        greet();
-        sayHello("Avnish");
-        int number = getNumber();
-        System.out.println(number);
-        int result = multiply(7,8);
-        System.out.println(result);
+        int y = sum(8,9);
+        System.out.println(y);
+
+        int z = sum(7,4,8);
+        System.out.println(z);
 
     }
 
-//  NO Ip, NO Op
-    static void greet(){
-        System.out.println("Hello User");
-        return; // Optional
+    static int sum(int a, int b) {
+        return a + b;
     }
 
-//  IP, NO Op
-    static void sayHello(String name){ // number of parameters can be anything
-        System.out.println("Hello "+name+"!");
+    static int sum(int a, int b, int c) {  // different no. of parameters #functionOverloading
+        return a + b + c;
     }
 
-//  NO Ip, OP
-    static int getNumber(){
-        return 12;
-    }
-
-//  IP, OP
-    static int multiply(int a, int b){
-        return a * b;
+    static int sum(double a, double b) { // different types of parameters #functionOverloading
+        return (int)(a + b);
     }
 
 }
