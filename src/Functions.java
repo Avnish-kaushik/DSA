@@ -1,27 +1,18 @@
 public class Functions {
     static void main() {
-//    FUNCTION OVERLOADING
-        int x = sum(2,3);
-        System.out.println(x);
+//    CHAINING OF FUNCTIONS
 
-        int y = sum(8,9);
-        System.out.println(y);
-
-        int z = sum(7,4,8);
-        System.out.println(z);
+        fun1();
+        System.out.println("bye..");
 
     }
-
-    static int sum(int a, int b) {
-        return a + b;
+        static void fun1() {
+         fun2();
+         System.out.println("Hi.");
     }
 
-    static int sum(int a, int b, int c) {  // different no. of parameters #functionOverloading
-        return a + b + c;
-    }
-
-    static int sum(double a, double b) { // different types of parameters #functionOverloading
-        return (int)(a + b);
+    static void fun2() {
+        System.out.println("Hello");
     }
 
 }
