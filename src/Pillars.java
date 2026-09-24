@@ -73,6 +73,7 @@ class CSE extends EngineeringStudents{
 
 // SUPER Keyword --> Reference of Parent object or method
 
+/*
 public class Pillars{
     public static void main(String[] args){
         EngineeringStudent es1 = new EngineeringStudent();
@@ -103,3 +104,94 @@ class EngineeringStudent extends StudentI{
         System.out.println(college);
     }
 }
+*/
+
+// ABSTRACTION
+
+public class Pillars {
+    public static void main(String[] args){
+//        Car car = new ElectricCar();
+//        car.start();
+//        car.accelerate();
+//        car.brake();
+
+    }
+}
+
+/*
+abstract class Car {
+    void start(){
+      System.out.println("Car Started")
+    }
+    abstract void accelerate();
+    abstract void brake();
+
+}
+class FuelCar extends Car{
+    @Override
+     void start(){
+         System.out.println("Fuel car is started");
+     }
+    @Override
+     void accelerate(){
+         System.out.println("Fuel car is accelerating");
+     }
+    @Override
+     void brake(){
+         System.out.println("Fuel car is stopping");
+     }
+}
+class ElectricCar extends Car{
+    @Override
+    void start(){
+        System.out.println("ElectricCar is started");
+    }
+    @Override
+    void accelerate(){
+        System.out.println("ElectricCar is accelerating");
+    }
+    @Override
+    void brake(){
+        System.out.println("ElectricCar is stopping");
+    }
+}*/
+
+// INTERFACE
+/*
+interface Car{
+    void start();
+    void accelerate();
+    void brake();
+}
+class FuelCar implements Car{
+    @Override
+    public void start(){
+        System.out.println("Fuel car is started");
+    }
+    @Override
+    public void accelerate(){
+        System.out.println("Fuel car is accelerating");
+    }
+    @Override
+    public void brake(){
+        System.out.println("Fuel car is stopping");
+    }
+}
+class ElectricCar implements Car {
+    @Override
+    public void start() {
+        System.out.println("ElectricCar is started");
+    }
+
+    @Override
+    public void accelerate() {
+        System.out.println("ElectricCar is accelerating");
+    }
+
+    @Override
+    public void brake() {
+        System.out.println("ElectricCar is stopping");
+    }
+}*/
+
+
